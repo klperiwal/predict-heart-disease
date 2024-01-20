@@ -11,7 +11,7 @@ Individuals grappling with cardiovascular diseases or those at elevated cardiova
 <br><br>
 
 <H3 style="font-family: Times New Roman">Aim:</H3>
-- To classify / predict whether a patient is prone to heart failure depending on multiple attributes.<br>
+- To classify/predict whether a patient is prone to heart failure depending on multiple attributes.<br>
 - It is a <b>Binary Classification</b> with multiple numerical and categorical features.
 <br><br>
 
@@ -40,7 +40,7 @@ Individuals grappling with cardiovascular diseases or those at elevated cardiova
 |1|Logistic Regression|87.50%|91.12%|87.43%|
 |2|Support Vector Classifier|87.50%|90.53%|87.43%|
 |3|Decision Tree Classifier|84.78%|89.09%|84.62%|
-|4|Random Forest Classifier|84.24%|92.91%|84.06%|
+|4|Random Forest Classifier|84.28%|92.91%|84.06%|
 |5|K-Nearest Neighbors Classfier|81.52%|89.34%|81.36%|
 
 <br>
@@ -49,8 +49,8 @@ Individuals grappling with cardiovascular diseases or those at elevated cardiova
 
 - This dataset is great for understanding how to handle binary classification problems with the combination of numerical and categorical features.
 
-- SMEs (doctors or nurses) can be assisted by providing insights that enables them to take the next line of action.
+- SMEs (doctors or nurses) can be assisted by providing insights which enables them to take the next line of action.
 
-- For feature engineering, it might feel confusing about the order of the processes. In this case, data scaling was executed before the feature selection test. We might feel like we are tampering the data before passing it to the tests but the results are same irrespective of the order of the process. (Try it out!)
+- For feature engineering, it might feel confusing about the order of the processes. In this case, data scaling was executed before the feature selection test. We might feel like we are tampering the data before passing it to the tests but the results are the same irrespective of the order of the process. (Try it out!)
 
 - For modeling, hyperparameter tuning is not done. It can push the performances of the algorithms. Overall the algorithm performances are good.
