@@ -1,22 +1,26 @@
 # Prediction of Heart Disease:
 
-<center>
-    <img src="https://prakashhospitals.in/wp-content/uploads/2022/04/HFDF56QNUNDHPJT6A5JH5RQYAE.webp" alt="Human Heart" width="35%">
-</center>
+<b>Research Paper Link: [https://www.hindawi.com/journals/bmri/2023/6864343](url) </b>
 
-<h3 style="font-family: Times New Roman">Problem Statement:</h3>
-In the era of abundant medical data and the burgeoning field of Data Science, numerous startups are stepping up to confront the challenge of developing predictive indicators for impending diseases. At the forefront of this mission is the battle against cardiovascular diseases (CVDs), which stand as the leading global cause of death, claiming approximately 17.9 million lives annually equivalent to 31% of all global fatalities. Among the myriad consequences of CVDs, heart failure looms large.<br>
+<br>
+<p align="center">
+    <img src="https://prakashhospitals.in/wp-content/uploads/2022/04/HFDF56QNUNDHPJT6A5JH5RQYAE.webp" alt="Human Heart" width="35%" style="border-radius: 50%; box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);">
+</p>
+<h3 style="font-family: Times New Roman">PROBLEM STATEMENT:</h3>
+In the age of abundant medical data and the growing field of Data Science, individuals are taking on the challenge of developing predictive indicators for diseases. Leading this mission is the battle against cardiovascular diseases (CVDs), which is the leading global cause of death, claims about 17.9 million lives annually, equivalent to 31% of all global fatalities. Among the many consequences of CVDs, <b>Heart Failure</b> is a significant concern.<br>
 
-Individuals grappling with cardiovascular diseases or those at elevated cardiovascular risk—attributable to factors such as hypertension, diabetes, hyperlipidemia, or existing health conditions require timely detection and proactive management. Enter the realm of machine learning, a powerful ally in the quest for early intervention and effective disease management. By leveraging advanced AI techniques, we aim not only to automate the identification of cardiovascular issues but also to pave the way for a future where medical challenges can be systematically addressed and overcome with the aid of cutting-edge technology. As we tackle the complexities of heart health, our sights remain set on solving current problems and seamlessly transitioning to the next frontier in healthcare innovation.
+Individuals facing Heart Failure or those at a higher risk due to factors like hypertension, diabetes, hyperlipidemia, or existing health conditions, need timely detection and proactive management. This is where machine learning becomes a valuable ally, aiding in early intervention and effective disease management. By using advanced AI techniques, the goal is not just to automate the identification of cardiovascular issues but also to pave the way for a future where medical challenges can be systematically addressed and overcome with cutting-edge technology. As we navigate the complexities of heart health, the main focus remains on solving current problems and smoothly transitioning to the next frontier in healthcare innovation.
 <br><br>
 
-<H3 style="font-family: Times New Roman">Aim:</H3>
-- To classify/predict whether a patient is prone to heart failure depending on multiple attributes.<br>
-- It is a <b>Binary Classification</b> with multiple numerical and categorical features.
-<br><br>
+<H3 style="font-family: Times New Roman">AIM:</H3>
 
+- Early Detection of Heart Disease using Machine Learning Model.
+- Providing healthcare professionals with valuable insights, aiding in effective decision-making.
+- Developing a model that is not only accurate but also accessible and efficient in a healthcare setting.
+- Prepare for advancements in the field by keeping the model adaptable and capable of benefiting from future improvements.
+<br>
 
-<h3 style="font-family: Times New Roman" >Dataset Attributes:</h3>    
+<h3 style="font-family: Times New Roman" >DATASET ATTRIBUTES:</h3>    
 - <b>Age</b>: Age of the patient[in years]
 <br>- <b>Sex</b>: Gender of the patient[M:Male, F:Female]
 <br>- <b>Chess Pain Type</b>: Chest pain type [TA:Typical Angina, ATA:Atypical Angina, NAP:Non-Anginal Pain, ASY:Asymptomatic]
@@ -30,12 +34,11 @@ Individuals grappling with cardiovascular diseases or those at elevated cardiova
 <br>- <b>ST_Slope</b>: Slope of the peak exercise ST segment [Up:upsloping, Flat:flat, Down:downsloping]
 <br>- <b>HeartDisease</b>: Output Class [1:heart disease, 0:Normal]
 
-<br>
-<br>
+<br><br>
 
-## <div style="font-family: Times New Roman; padding: 12px; line-height: 1;">Algorithm Result Table</div>
+<b><h3 style="font-family: Times New Roman"> RESULT TABLE OF ALGORITHMS:</h3></b> 
 
-|Sr. No.|ML Algorithm|Accuracy|Cross Validation Score|ROC AUC Score|
+|Sl No|ML Algorithm|Accuracy|Cross Validation Score|ROC-AUC Score|
 |-|-|-|-|-|
 |1|Logistic Regression|87.50%|91.12%|87.43%|
 |2|Support Vector Classifier|87.50%|90.53%|87.43%|
@@ -45,12 +48,9 @@ Individuals grappling with cardiovascular diseases or those at elevated cardiova
 
 <br>
 
-# <div style="font-family: Times New Roman; padding: 12px; line-height: 1;">Conclusion</div>
+<h3 style="font-family: Times New Roman" >CONCLUSION:</h3> 
 
-- This dataset is great for understanding how to handle binary classification problems with the combination of numerical and categorical features.
-
-- SMEs (doctors or nurses) can be assisted by providing insights which enables them to take the next line of action.
-
-- For feature engineering, it might feel confusing about the order of the processes. In this case, data scaling was executed before the feature selection test. We might feel like we are tampering the data before passing it to the tests but the results are the same irrespective of the order of the process. (Try it out!)
-
-- For modeling, hyperparameter tuning is not done. It can push the performances of the algorithms. Overall the algorithm performances are good.
+- This dataset handles binary classification problems with the combination of both numerical and categorical features.
+- SMEs (doctors or nurses) can be assisted by providing insights that enable them to take the next line of action.
+- For feature engineering, data scaling was executed before the feature selection test. We might feel like we are tampering with the data before passing it to the tests but the results are the same irrespective of the order of the process.
+- For modeling, hyperparameter tuning is not done. It can push the performances of the algorithms.
