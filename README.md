@@ -52,5 +52,5 @@ Individuals facing Heart Failure or those at a higher risk due to factors like h
 
 - This dataset handles binary classification problems with the combination of both numerical and categorical features.
 - SMEs (doctors or nurses) can be assisted by providing insights that enable them to take the next line of action.
-- For feature engineering, data scaling was executed before the feature selection test. We might feel like we are tampering with the data before passing it to the tests but the results are the same irrespective of the order of the process.
+- For feature engineering, data scaling was executed before the feature selection test. The results are the same irrespective of the order of the process.
 - For modeling, hyperparameter tuning is not done. It can push the performances of the algorithms.
