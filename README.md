@@ -1,6 +1,6 @@
 # Prediction of Heart Disease:
 
-<b>Research Paper Link: [https://www.hindawi.com/journals/bmri/2023/6864343](url) </b>
+<b>Research Paper Link:  [Click Here](https://www.hindawi.com/journals/bmri/2023/6864343)</b>
 
 <br>
 <p align="center">
@@ -19,7 +19,7 @@ Individuals facing Heart Failure or those at a higher risk due to factors like h
 - Developing a model that is not only accurate but also accessible and efficient in a healthcare setting.
 - Prepare for advancements in the field by keeping the model adaptable and capable of benefiting from future improvements.
 <br>
-
+<!--
 <h3 style="font-family: Times New Roman" >DATASET ATTRIBUTES:</h3>    
 - <b>Age</b>: Age of the patient[in years]
 <br>- <b>Sex</b>: Gender of the patient[M:Male, F:Female]
@@ -33,8 +33,8 @@ Individuals facing Heart Failure or those at a higher risk due to factors like h
 <br>- <b>OldPeak</b>: Oldpeak= ST[Numeric value measured in depression]
 <br>- <b>ST_Slope</b>: Slope of the peak exercise ST segment [Up:upsloping, Flat:flat, Down:downsloping]
 <br>- <b>HeartDisease</b>: Output Class [1:heart disease, 0:Normal]
-
 <br><br>
+-->
 
 <b><h3 style="font-family: Times New Roman"> RESULT TABLE OF ALGORITHMS:</h3></b> 
 
